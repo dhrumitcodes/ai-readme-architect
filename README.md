@@ -3,7 +3,7 @@
 An automated documentation builder powered by the Gemini 2.5 Flash API and Streamlit. Drop in your raw code or folder snippets, and let AI structure a highly polished, professional markdown overview.
 
 ##  Live Demo
-👉 [Insert your Streamlit Cloud link here after deploying!]
+https://dhrumitcodes-ai-readme-architect-app-9rqp5d.streamlit.app/
 
 ##  Features
 - **Instant Architecture:** Analyzes code contexts to auto-generate endpoint guides, features, and setup blocks.
