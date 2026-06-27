@@ -64,7 +64,7 @@ if generate_btn:
         Output raw markdown text only. Do not wrap your entire response inside a single massive markdown code block.
         """
         
-        st.subheader("✨ Generated Documentation Preview")
+        st.subheader(" Generated Documentation Preview")
         
         
         preview_tab, raw_tab = st.tabs(["👀 Rendered Preview", "📄 Raw Markdown Content"])
