@@ -32,3 +32,18 @@ python -m streamlit run app.py
 -Environment Management: Python-dotenv
 
 ![APP INTERFACE PREVIEW](image.png)
+
+### 💡 How to use this for Full-Stack (MERN / Django / Next.js) Apps
+Since full-stack projects span multiple files, you don't need to paste thousands of lines of raw UI code. Instead, paste the **architectural backbone** files into the generator text box, separated by simple file headers:
+
+```text
+// ================= BACKEND: server.js =================
+const express = require('express');
+// ... your core routing/middleware logic
+
+// ================= DATABASE: User.js =================
+const userSchema = new mongoose.Schema({ ... });
+
+// ================= FRONTEND: api.js =================
+import axios from 'axios';
+// ... your core API fetch utilities
